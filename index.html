@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="bg-warning">
+        <div class="container py-5">
+            <div class="row text-dark my-5">
+                <div class="col-md-3">
+                    <div class="">
+                        <h1>Hour</h1>
+                        <h1 id="displayHour">60</h1>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="">
+                        <h1>Min</h1>
+                        <h1 id="displayMin">60</h1>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="">
+                        <h1>Sec</h1>
+                        <h1 id="displaySec">60</h1>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="">
+                        <h1>MiliSecond</h1>
+                        <h1 id="displayMiliSecond">10</h1>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="w-50 mx-auto text-center">
+                <button onclick="startTimer ()" class="btn btn-dark">Start</button>
+                <button onclick="pauseTimer ()" class="btn btn-dark">Pause</button>
+                <button onclick="resetTimer ()" class="btn btn-dark">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+<script src="app.js"></script>
+</html>
